@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/note_bg"
+    android:layout_marginTop="4dp"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tittleTextView"
+        android:textSize="18sp"
+        android:text="Note Tittle"
+        android:textStyle="bold"/>
+    <TextView
+        android:text="Note Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/contentTextView"/>
+</LinearLayout>
